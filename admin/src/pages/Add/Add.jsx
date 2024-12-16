@@ -17,11 +17,11 @@ const [image, setImage] = useState(false)
          <input onChange={(e)=>setImage(e.target.files[0])} type='file' id="image" hidden required></input>
           </div>
           <div className="add-product-name flex-col">
-            <p>Product name</p>
+            <p>Product Name</p>
             <input type='text' name="name" placeholder='type here'></input>
           </div>
           <div className="add-product-description flex-col">
-            <p>Product description</p>
+            <p>Product Description</p>
             <textarea name="description" rows="6" placeholder='write content here'></textarea>
           </div>
           <div className='add-category-price'>
